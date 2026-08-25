@@ -3,13 +3,9 @@ pages_build_output_dir = "dist"
 compatibility_date = "2026-07-29"
 compatibility_flags = ["nodejs_compat"]
 
-[[kv_namespaces]]
-binding = "TSUB_KV"
-id = "c005f8e68de24d5298f5661b681d563d"
-
 # Replace the resource IDs for another Cloudflare account. Secrets remain
 # managed in the Cloudflare Pages dashboard.
 [[d1_databases]]
 binding = "TSUB_DB"
 database_name = "tsub-production"
-database_id = "eccffa4b-61fb-4406-ab33-64e24bc4bc18"
+database_id = "660e42db-5fba-4db1-8e84-9650d6ec8da3"
